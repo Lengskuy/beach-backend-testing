@@ -9,7 +9,7 @@ router = APIRouter()
 # ✅ Function to simulate dynamic data
 def simulate_beach_data():
     base_beaches = [
-        {
+      {
             "id": 1,
             "name": "Pantai Merdeka",
             "temperature": 30.0,
@@ -18,7 +18,7 @@ def simulate_beach_data():
             "safety_flag": random.choice(["Green", "Yellow", "Red"]),
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
             "regions": "North",
-            "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqkjtlBxAHY1TAqS-U5h1HzExKTWLVe93l355sIG0PvtA3O0genjcBJmKyI1ygZGkePbOuL8OdOa5ixkLNtvLsSW3vAZ2um8a0oPhDvuYcbzhHWnKYOogrfI_fOufi-SgpydBWx=s1360-w1360-h1020-rw"
+            "image_url": "https://www.shutterstock.com/shutterstock/videos/3538608219/thumb/1.jpg?ip=x480"
         },
         {
             "id": 2,
@@ -51,7 +51,7 @@ def simulate_beach_data():
             "safety_flag": random.choice(["Green", "Yellow", "Red"]),
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
             "regions": "North",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd907ygV7-It-omT-1RNng7XV5y7OWiLK6hg&s"
+            "image_url": "https://cdn.motherhood.com.my/wp-content/uploads/sites/2/2021/12/23151516/tempat-menarik-di-Perlis.jpg"
         },
         {
             "id": 5,
@@ -75,6 +75,73 @@ def simulate_beach_data():
             "regions": "South",
             "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323943628.webp?k=a0befc38838de62e47c3badc99b0e1fdeb727e9f0bd49ec03fba91d4650a2d21&o="
         },
+        {
+            "id": 7,
+            "name": "Pantai Cenang",
+            "temperature": 32.3,
+            "wave_height": 1.2,
+            "crowd_level": "High",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "North",
+            "image_url": "https://content.r9cdn.net/rimg/dimg/6b/cb/0e46e803-city-313639-166ea418a18.jpg?width=1366&height=768&xhint=1033&yhint=1636&crop=true"
+        },
+        {
+            "id": 8,
+            "name": "Tanjung Rhu",
+            "temperature": 30.2,
+            "wave_height": 0.7,
+            "crowd_level": "Low",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "North",
+            "image_url": "https://naturallylangkawi.my/wp-content/uploads/2024/11/TjRhu-6.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Teluk Cempedak",
+            "temperature": 30.5,
+            "wave_height": 1.0,
+            "crowd_level": "High",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "East",
+            "image_url": "https://mbk.gov.my/portal/wp-content/uploads/2021/03/telukcempedak.jpg"
+        }, 
+        {
+            "id": 10,
+            "name": "Pantai Penarik",
+            "temperature": 29.8,
+            "wave_height": 1.6,
+            "crowd_level": "Low",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "East",
+            "image_url": "https://cdn.libur.com.my/2023/05/6f.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Batu Ferringhi Beach",
+            "temperature": 30.0,
+            "wave_height": 0.9,
+            "crowd_level": "High",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "West",
+            "image_url": "https://www.awaygowe.com/wp-content/uploads/2019/10/batu-ferringhi-reasons-featured2.webp"
+        },
+        {
+            "id": 12,
+            "name": "Port Dickson Beach",
+            "temperature": 33.0,
+            "wave_height": 0.6,
+            "crowd_level": "High",
+            "safety_flag": random.choice(["Green", "Yellow", "Red"]),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "regions": "South",
+            "image_url": "https://www.agoda.com/wp-content/uploads/2024/05/Pantai-Cahaya-Negeri-Beach-port-dickson-malaysia.jpg"
+        }, 
+          
     ]
 
     dynamic_data = []
